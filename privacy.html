@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DocDost AI · Privacy Policy</title>
+<style>
+body{margin:0;background:#F6F4FE;color:#17162A;font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:32px;line-height:1.2;margin:0 0 8px} h2{font-size:21px;margin-top:32px}
+code{background:#EEEAFE;padding:1px 5px;border-radius:5px} a{color:#5B4BDB}
+</style></head><body><main>
+<h1>DocDost AI privacy policy</h1>
+<p>Effective 30 October 2026 · <a href="./">DocDost AI</a> · <a href="support.html">Support</a></p>
+<h2>In short</h2>
+<p>Your documents, the text read from them, your questions and the answers stay on your iPhone. DocDost AI has no account, no advertising, no analytics and no cloud AI. The app&#x27;s only network connection is a one-time download of the AI model files.</p>
+<h2>Your documents</h2>
+<p>DocDost AI stores the following in its private storage on your device:</p>
+<ul>
+<li>documents you import</li>
+<li>the text read from them</li>
+<li>the details it finds (dates, numbers)</li>
+<li>notes you write</li>
+<li>a search index</li>
+<li>reminders</li>
+<li>conversations</li>
+</ul>
+<p>Reading PDFs, recognising text in images, searching and answering questions all run on your iPhone. They use Apple frameworks (PDFKit, Vision) and open models (Liquid AI&#x27;s LFM3 and Google&#x27;s EmbeddingGemma), which run locally through the llama.cpp runtime. Nothing you import or ask is sent to the publisher or to any other server.</p>
+<h2>The one-time model download</h2>
+<p>On-device answers and smart search need two model files: LFM3-1.7B (about 1.05 GB) and EmbeddingGemma 2 (about 310 MB).</p>
+<ul>
+<li>The app downloads them once from Hugging Face (huggingface.co), from fixed, pinned addresses.</li>
+<li>It checks each file against a known checksum before using it.</li>
+<li>Like any download, the request shows Hugging Face your device&#x27;s IP address and normal request details. No document content, question, account or identifier is included.</li>
+<li>Hugging Face&#x27;s own privacy policy applies to its servers.</li>
+<li>The download can continue in the background, and it only uses mobile data if you allow it.</li>
+<li>The model files are excluded from iCloud backup and can be downloaded again at any time.</li>
+</ul>
+<h2>Protection</h2>
+<ul>
+<li><strong>Encryption at rest:</strong> the vault (originals, the database and the search index) uses iOS Complete File Protection, so it can&#x27;t be read while your iPhone is locked.</li>
+<li><strong>App lock:</strong> offered when you first set up the app and on by default. Your face or passcode is then needed to open the app, even on an unlocked iPhone.</li>
+<li><strong>Backups:</strong> by default the vault is <strong>kept out of iCloud and computer backups</strong>. You can include it in Settings → Your privacy. Without Apple&#x27;s Advanced Data Protection, Apple can access iCloud backups.</li>
+<li><strong>Deleting:</strong> deleted text is wiped from the search index immediately, and from the vault database the next time the app opens.</li>
+<li><strong>Lock Screen:</strong> the widget only ever receives a plain label and a date (&quot;Insurance ends · in 12 days&quot;), never document names or numbers.</li>
+<li><strong>Calls and copied numbers:</strong> before calling a number found in a document, the app shows where it is printed, because documents from untrusted sources can contain false numbers. A copied number stays on this iPhone (no Universal Clipboard) and clears after two minutes.</li>
+</ul>
+<p>These protections rely on your device passcode and on iOS security. They do not cover copies you choose to share, such as a family kit or a shared original, and they cannot protect data on a jailbroken or otherwise compromised device. DocDost AI has no sync or backup server of its own.</p>
+<h2>Permissions</h2>
+<p>The app asks for each permission only when you first use the feature that needs it:</p>
+<ul>
+<li><strong>Camera:</strong> when you scan a document.</li>
+<li><strong>Photos:</strong> the system picker gives the app only the photos you choose.</li>
+<li><strong>Files:</strong> only the files you pick.</li>
+<li><strong>Notifications:</strong> when you turn on reminders. Reminder alerts use generic text, not document names or numbers.</li>
+<li><strong>Face ID:</strong> only if you turn on device authentication.</li>
+</ul>
+<p>Siri and Shortcuts actions run in the app on your device.</p>
+<h2>Analytics and accounts</h2>
+<p>There is no advertising, no tracking, no third-party analytics or crash-reporting SDK, and no account. The publisher collects no data through the app. If you contact support, or choose to share diagnostics with developers through Apple&#x27;s settings, that information is handled under the publisher&#x27;s support terms and Apple&#x27;s policies.</p>
+<h2>Control and deletion</h2>
+<p>Deleting a document removes, from the device:</p>
+<ul>
+<li>its original file</li>
+<li>the text read from it</li>
+<li>the details found in it</li>
+<li>its search index entries and embeddings</li>
+<li>its reminders</li>
+<li>stored answers that cite it</li>
+</ul>
+<p>You can also clear conversations, remove personal memories, and rebuild the search index in Settings.</p>
+<p>Deleting the app removes its local storage. Device backups, and copies you shared, are managed separately.</p>
+<h2>Accuracy</h2>
+<p>Details the app finds and answers it writes can be incomplete or wrong. Check them against the original before you confirm them. Explanations of what a policy covers are not legal or insurance advice and do not decide claims; confirm with your insurer or the issuer.</p>
+<h2>Children</h2>
+<p>DocDost AI is not directed at children and collects no personal data from anyone.</p>
+<h2>Contact and changes</h2>
+<p>Publisher: <strong>Ravi Narayanan</strong>.</p>
+<p>Privacy contact: <a href="mailto:ravi0389@gmail.com">ravi0389@gmail.com</a>.</p>
+<p>We will update this policy when the app&#x27;s behaviour changes and publish the current version at the App Store privacy policy URL.</p>
+</main></body></html>
